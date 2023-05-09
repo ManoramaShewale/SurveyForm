@@ -1,0 +1,126 @@
+<div class="container">
+   <header class="header">
+      <title>Example</title>
+<link href="Style.css" rel="stylesheet">
+     <h1 id="title" class="text-center">Generation Survey Form</h1>
+     <br>
+   <form id="survey-form">
+     <div class="form-group">
+       <label id="name-label" for="name">Name</label>
+       <input type="text" id="name" class="form-control"
+         placeholder="Enter your name"
+         
+      />
+       
+     </div>
+     <div class="form-group">
+       <label id="email-label" for="email">Email</label>
+       
+       <input type="email" id="email" class="form-control" 
+       placeholder="Enter your email" />
+     </div>
+
+     <div>
+      <label for="age" id="label-age">
+ Age
+      </label>
+      <input type="text" id="age" placeholder="Enter your age" class="form-control"/>
+ </div>
+    <br>
+     <!-- <div class="form-group">
+       <p>Which option best describes your current role?</p>
+       <select id="dropdown" name="role" class="form-control" required>
+         <option disabled selected value>Select current role</option>
+         <option value="student">Student</option>
+         <option value="job">Full Time Job</option>
+         <option value="learner">Full Time Learner</option>
+         <option value="preferNo">Prefer not to say</option>
+         <option value="other">Other</option>
+       </select>
+     </div> -->
+     <div>
+      <label for="role" id="label-role">
+      Which option best describes you?<br>
+      </label>
+           </div>
+           <select id="dropdown" name="role" class="form-control" required>
+            
+       <option value="student">Student</option>
+       <option value="intern">Intern</option>
+       <option value="professional">Professional</option>
+       <option value="other">Other</option>
+       </select>
+ <br>
+     <div class="form-group">
+       <p>Would you recommend GENERATION to a friend?</p>
+       <label>
+         <input name="user-recommend" value="definitely" type="radio"
+           class="input-radio"
+           checked
+         />Definitely</label
+       >
+       <label>
+         <input
+           name="user-recommend"
+           value="maybe"
+           type="radio"
+           class="input-radio"
+         />Maybe</label
+       >
+ 
+       <label
+         ><input
+           name="user-recommend"
+           value="not-sure"
+           type="radio"
+           class="input-radio"
+         />Not sure</label
+       >
+     </div>
+ 
+ 
+     <div class="language">
+       <p>
+         Languages and Frameworks known
+       </p>
+ 
+       
+	      <input type="checkbox" name="tech" class="input-checkbox">C</input>
+             <br>
+	       <input type="checkbox" name="tech" class="input-checkbox">C++</input>
+             <br>
+               <input type="checkbox" name="tech" class="input-checkbox">C#</input>
+             <br>
+                <input type="checkbox" name="tech" class="input-checkbox">Java</input>
+             <br>
+                <input type="checkbox" name="inp" class="input-checkbox">Python</input>
+             <br>
+                <input type="checkbox" name="inp" class="input-checkbox">React</input>
+             <br>
+		 <input type="checkbox" name="tech" class="input-checkbox">HTML</input>
+             <br>
+		 <input type="checkbox" name="tech" class="input-checkbox">CSS</input></label>
+             <br>
+                 <input type="checkbox" name="tech" class="input-checkbox">JavaScript</input>
+             <br>
+		 <input type="checkbox" name="tech" class="input-checkbox">Spring</input>
+      
+       
+
+       </div>
+ 
+     <div class="form-group">
+       <p>Any comments or suggestions?</p>
+       <textarea id="comments" class="input-textarea" name="comment"
+         placeholder="Enter your comment here..."
+       ></textarea>
+     </div>
+ 
+     <div>
+       <button type="submit" value="submit" class="submit-button">
+	      Submit
+	      </button>
+     </div>
+   </form>
+ </div>
+ 
